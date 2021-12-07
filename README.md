@@ -35,5 +35,44 @@ http://localhost:3000
 ```
 
 
+<a href="https://www.postman.com/">Postman</a> can be used to test your API endpoints
 
 
+POST requests map to the create controller action
+
+ex:
+
+```sh
+#create
+http://localhost:3000/api/courses
+```
+
+GET requests map to index or show controller actions depending on the URI
+
+ex:
+
+```sh
+#index
+http://localhost:3000/api/courses
+
+#show
+http://localhost:3000/api/courses/36
+```
+
+PATCH requests map to the update controller action
+
+ex:
+
+```sh
+#patch
+http://localhost:3000/api/courses/36
+```
+
+DELETE requests map to the destroy controller action
+
+ex:
+
+```sh
+#delete
+http://localhost:3000/api/courses/36
+```
