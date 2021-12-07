@@ -1,24 +1,39 @@
-# README
+<h1>Course Api</h1>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A RESTful API for a course database 
 
-Things you may want to cover:
+Instructions
+<br/>
 
-* Ruby version
+```sh
+git clone https://github.com/A-Qudsi/course-api.git
+cd course-api
+bundle install
+```
 
-* System dependencies
+Next lets set up the database
 
-* Configuration
+```sh
+bundle exec rails db:create       #creates the database
+bundle exec rails db:migrate      #updates the database with the model
+bundle exec rails db:seed         #feeds the database with the the default data
 
-* Database creation
+#we could combine the commands:
+bundle exec rails db:create db:migrate db:seed 
+```
 
-* Database initialization
+To run the app we just need to start our server
 
-* How to run the test suite
+```sh
+rails s
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+Your server should now be running at 
 
-* Deployment instructions
+```sh 
+http://localhost:3000
+```
 
-* ...
+
+
+
