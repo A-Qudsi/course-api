@@ -56,7 +56,7 @@ ex:
 http://localhost:3000/api/courses
 
 #show
-http://localhost:3000/api/courses/36
+http://localhost:3000/api/courses/3
 ```
 
 PATCH requests map to the update controller action
@@ -65,7 +65,7 @@ ex:
 
 ```sh
 #patch
-http://localhost:3000/api/courses/36
+http://localhost:3000/api/courses/3
 ```
 
 DELETE requests map to the destroy controller action
@@ -74,5 +74,5 @@ ex:
 
 ```sh
 #delete
-http://localhost:3000/api/courses/36
+http://localhost:3000/api/courses/3
 ```
