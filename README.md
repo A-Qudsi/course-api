@@ -16,7 +16,7 @@ Next lets set up the database
 ```sh
 bundle exec rails db:create       #creates the database
 bundle exec rails db:migrate      #updates the database with the model
-bundle exec rails db:seed         #feeds the database with the the default data
+bundle exec rails db:seed         #feeds the database with the default data
 
 #we could combine the commands:
 bundle exec rails db:create db:migrate db:seed 
